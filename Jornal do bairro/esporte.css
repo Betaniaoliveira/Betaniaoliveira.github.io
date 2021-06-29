@@ -1,0 +1,60 @@
+body{
+     background-color: #08c9cf;
+    background-image: url(./img/cinza.jpg);
+    background-repeat: unset;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+        
+}
+h1{
+    text-align:center;
+    font-family: cursive;
+    background-color: black;
+    color:white;
+    font-size: 40px;
+    
+}
+h1:hover{
+    color:yellow;
+    background-color:rgb(4, 83, 75);
+}
+p{
+    text-align:center;
+    font-size: 20px;
+}
+#hello{
+    text-align: center;
+    font-size: larger;
+    font-display:flex ;
+    font-family: cursive;
+    color:rgb(25, 3, 46);
+    font-size: 20px; 
+    float:right;
+
+
+}
+#hello img {
+    width: 256px;
+    text align:center;
+    height: 256px;
+    animation:bounce 2s infinite alternate;
+    animation-direction:right;
+
+}
+@keyframes bounce{
+    0%{transform:translateX(4px);}
+    100%{transform:translateX(-300px);}
+}
+
+
+
+
+        
+    
+         
+

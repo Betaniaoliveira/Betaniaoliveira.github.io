@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #08c9cf;
+    background-image: url(./img/cinza.jpg);
+    background-repeat: unset;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    
+}
+#titulo {
+    text-align:center;
+    font-family: cursive;
+    background-color: black;
+    color:white;
+    font-size: 40px;
+}
+#titulo:hover{
+    color:yellow;
+    background-color:rgb(4, 83, 75);
+}
+#titulo img{
+    width:200px;
+    height: 200px;
+    display:center;
+    animation:bounce 2s infinite alternate;
+    animation-direction:right;
+}
+@keyframes bounce{
+    0%{transform:translateX(10px);}
+    100%{transform:translateX(-400px);}
+}
+ h1 {
+    text-align:center;
+    font-family: cursive;
+    background-color: black;
+    color:white;
+    font-size: 40px;
+
+}
+h1:hover{
+    color:yellow;
+    background-color:rgb(4, 83, 75);
+}
+#texto{
+    color:black; 
+    text-align: center;
+    font-size: larger;
+    font-display:flex ;
+    font-family: cursive;
+    font-size: 20px; 
+    
+}
+#rodape{
+    position:unset;
+    background-color: darkblue;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+     
+    

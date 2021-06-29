@@ -1,0 +1,102 @@
+
+body{
+    background-color: #08c9cf;
+    background-image: url(./img/cinza.jpg);
+    background-repeat: unset;
+    margin: 0;
+    
+}
+
+  h1{
+    text-align: center;
+    background-color:black;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;        
+  }
+  h1:hover{
+    color:yellow;
+    background-color:rgb(4, 83, 75);
+  }
+
+ h2{
+    text-transform: lowercase;
+    text-align:center;
+    color:white;
+    background-color:black;
+}
+h2:hover{
+    color:yellow;
+    background-color:rgb(4, 83, 75);
+}
+*{
+    margin: 5px auto;
+    padding: 4px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+img{
+    width: 400px;
+    height: 300px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+#menu-h {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h  li{
+    display:inline;
+
+}
+#menu-h li a{
+     color:rgb(9, 66, 9);
+    text-decoration:none;
+    padding: 85px;
+    font-size:14px;
+    display:inline-block;
+    background-color: burlywood;
+    transition: backgrond.4s;
+}
+
+#menu-h li a:hover{
+color: rgb(34, 5, 61);
+background-color: coral;
+}
+
+#n1{
+    text-align:justify;
+    color:black;
+    font-family: Verdana;
+    background-color: white;
+   font-size: 25px;
+   margin-left: 10px;
+   margin-right: 10px;
+} 
+.foto1{
+    text-align: center;
+
+}
+#n1-inframe{
+    text-align: center;
+}
+
+#foto2{
+    text-align: center;
+}
+#rodape{
+   
+    
+    position:unset;
+    background-color: darkblue;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+    
+  

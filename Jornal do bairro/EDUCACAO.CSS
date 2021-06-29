@@ -1,0 +1,48 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image:url(./img/cinza.jpg);
+    background-color: #08c9cf;
+    background-repeat: unset;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left:30px;
+    margin-right:30px;
+
+
+        
+}
+h1{ 
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    color:white;
+    font-size: 40px;
+}
+h1:hover{
+    color:yellow;
+    background-color:rgb(4, 83, 75);
+}
+p{
+    text-align:center;
+    color:black;
+    margin-left:8px;
+    margin-right: 8px;
+    font-size: 23px;
+}
+img{
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    
+}
+#rodape{
+    position:unset;
+    background-color: darkblue;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
