@@ -1,0 +1,91 @@
+body{
+    background-color:#fafaf2;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-width: 2cm;
+    border-left: 2cm;
+    border-right: 2cm;
+    border-top: 2cm;
+    border-bottom: 2cm;
+    border-style:groove;  
+}
+
+#cabeçalho{
+    font-size:xx-large;
+    text-align:center;
+    width:3ocm;
+    background-color:#2c3e86;
+    font-family:'Balsamiq Sans';
+}
+#cabeçalho img{
+    width: 300px;
+    height: 300px;
+    display: center;
+    animation:bounce 5s;
+    animation direction: left 600px;
+}
+@keyframes bounce{
+    0%{transform:translateX(10px);}
+    100%{transform: translateX(-200px);}
+}
+
+#icones{
+    border-width: 4cm;
+    display:flex;
+    font: size 100px;
+    float: unset;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(118, 211, 211);
+}
+#corpo-do-site{
+text-align:justify;
+font-size:25px;
+margin-right: 7cm;
+margin-right:7cm;
+margin-left: 7cm;
+}
+
+#corpo-do-site h1{
+    color: rgb(32, 48, 17);
+    text-align: center;
+}
+#corpo-do-site h2{
+    color: rgb(32, 48, 17);
+    text-align: center;
+}
+#corpo-do-site li{
+    color: rgb(175, 27, 27);
+    text-align: center;
+    font-size: 27px;
+}
+#link{
+color: darkblue;
+float: right;
+width: 6cm;
+border: 0;
+background-color: rgb(208, 238, 137);
+text-decoration:none;
+}
+#link-esquerdo{
+    float: left;
+    width: 6cm;
+    border: 0;
+    background-color: rgb(208, 238, 137);
+}
+.planejamento{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size:16px;
+}
+#bncc{
+    text-align: center;
+    color: red;
+    font: size 5px;
+}
+footer{
+    text-align: center;
+    background-color:#2c3e86;
+    font-size: medium;  
+}
