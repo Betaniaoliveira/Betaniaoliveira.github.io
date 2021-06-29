@@ -1,0 +1,50 @@
+body{
+    width: 0;
+    background-image: url("./imagem/pipoca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cabeçalho{
+    color: rgb(232, 238, 243);
+    text-align: center;
+    width: 30cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-top: 2px;
+}
+  
+input#nome{
+    text-align: center;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    
+}
+input#idade{
+    text-align: center;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    
+
+}
+label{
+    color:white;
+    padding: 35px 15px;
+    height: 150px;
+    right: 150px;
+    width: 500px;
+    background-color:rgb(192, 72, 72);
+    text-transform: uppercase;
+    text-align:center;
+    display: block;
+    margin-top: 70px;
+    cursor:pointer;
+    margin-left: 750px;
+   
+}
+
+
+     
+
+
