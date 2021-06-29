@@ -1,0 +1,31 @@
+#texto{
+    display: flex;
+    text-align: justify;
+  
+ 
+}
+
+
+img {
+    margin: 15px;
+}
+
+
+.alinharAoCentro{
+
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;    
+
+}
+.alinharaocentro{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    
+   }
+#video{
+    background-color: rgb(163, 214, 23);
+    border: black;
+
+}

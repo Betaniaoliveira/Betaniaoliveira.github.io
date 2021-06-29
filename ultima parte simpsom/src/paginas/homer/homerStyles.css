@@ -1,0 +1,19 @@
+img{
+    width: 25%;
+    height: 25%;
+    margin: 2em;
+
+}
+
+.texto{
+    text-align:justify;
+    display: flex;
+}
+.alinharaocentro{
+    display: flex;
+    justify-content: center;   
+}
+#video{
+    border-color: black;
+    background-color: rgb(173, 248, 97);
+}
